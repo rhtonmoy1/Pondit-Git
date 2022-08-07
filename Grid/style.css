@@ -1,0 +1,143 @@
+* {
+  margin-left: 0;
+  margin-right: 0;
+}
+.container {
+  background-color: rgb(219, 219, 219);
+  margin-left: 163px;
+  margin-right: 163px;
+  grid-gap: 0%;
+  display: grid;
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    "figure figure figure figure figure figure figure figure figure figure figure figure"
+    "discount discount discount discount discount discount discount discount discount discount discount discount"
+    "newsLeft newsLeft newsLeft newsLeft newsLeft newsLeft newsLeft newsRight newsRight newsRight newsRight newsRight"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  grid-area: header;
+}
+
+figure {
+  grid-area: figure;
+  background-color: aquamarine;
+  height: 572px;
+}
+
+.discount {
+  text-align: center;
+  grid-area: discount;
+  background-color: rgb(251, 251, 251);
+  height: 400px;
+}
+
+.newsLeft {
+  grid-area: newsLeft;
+  background-color: blueviolet;
+  height: 400px;
+}
+
+.newsRight {
+  text-align: center;
+  grid-area: newsRight;
+  background-color: goldenrod;
+  height: 400px;
+}
+
+footer {
+  text-align: center;
+  grid-area: footer;
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+header img {
+  width: 120px;
+}
+
+figure img {
+  width: 1017px;
+}
+
+.newsLeft img {
+  width: 600px;
+}
+
+.discount button {
+  margin-top: 50px;
+  background-color: goldenrod;
+  padding: 20px;
+  width: 300px;
+  color: white;
+  font-size: 20px;
+  border-radius: 4%;
+  border-color: rgb(254, 254, 254);
+}
+
+.discount h1 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.discount p {
+  text-align: justify;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.newsRight button {
+  margin-top: 50px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  width: 300px;
+  color: white;
+  font-size: 20px;
+  border-radius: 4%;
+  border-color: goldenrod;
+}
+
+.newsRight h1 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.newsRight p {
+  text-align: justify;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.socialIcon {
+  display: flexbox;
+}
+.socialIcon img {
+  height: 50px;
+}
+
+.socialIcon ul li {
+  padding: 20px;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+footer p {
+  color: black;
+  text-align: justify;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+footer h1 {
+  color: black;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.logo {
+  background-color: rgb(255, 255, 255);
+  height: 120px;
+  margin-left: 44%;
+}
